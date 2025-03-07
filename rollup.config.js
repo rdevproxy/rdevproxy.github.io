@@ -5,6 +5,7 @@ import terser from '@rollup/plugin-terser';
 import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import css from 'rollup-plugin-css-only';
+import copy from 'rollup-plugin-copy';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -57,6 +58,11 @@ export default {
 			browser: true,
 			dedupe: ['svelte'],
 			exportConditions: ['svelte']
+		}),
+		copy({
+			targets: [
+			  { src: 'public/index.html', dest: '.' } // Copies to the root
+			]
 		}),
 		commonjs(),
 

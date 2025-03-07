@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Portfolio</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+
+<body>
+	<header class="p-10 bg-gray-800 text-white">
+        <nav id="nav-header" class="container mx-auto flex justify-center items-center">
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#about-me" class="hover:underline">About Me</a></li>
+                <li><a href="#certifications" class="hover:underline">Certifications</a></li>
+                <li><a href="#blogs" class="hover:underline">Blogs</a></li>
+                <li><a href="#contact-me" class="hover:underline">Contact</a></li>
+            </ul>
+            <div class="md:hidden">
+                <button id="menu-button" class="focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="md:hidden">
+            <ul class="flex flex-col space-y-4 mt-4">
+                <li><a href="#about-me" class="hover:underline">About Me</a></li>
+                <li><a href="#certifications" class="hover:underline">Certifications</a></li>
+                <li><a href="#blogs" class="hover:underline">Blogs</a></li>
+                <li><a href="#contact-me" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+    <!------------------------------------------ Header ------------------------------>
+    <section id="about-me" class="p-20 bg-purple-500">
+        <div class="wrapper flex justify-evenly items-center h-500">
+            <div class="description">
+                <h2 class="">About Me</h2>
+                <p>This is the about me section.</p>
+            </div>
+    
+            <div class="profile">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="p-20 bg-green-500">
+        <div class="container mx-auto"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="certification-item bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Certification 1</h3>
+                    <p>Description of certification 1.</p>
+                </div>
+                <div class="certification-item bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Certification 2</h3>
+                    <p>Description of certification 2.</p>
+                </div>
+                <!-- Add more certification items as needed -->
+            </div>
+        </div>
+        <h2>Certifications</h2>
+        <p>This is the certifications section.</p>
+    </section>
+
+    <section id="blogs" class="p-20 bg-red-500">
+        <div class="content container mx-auto flex flex-col pt-5 pb-5">
+            <h2 class="text-2xl font-bold">Blogs</h2>
+            <p>This is the blogs section.</p>
+        </div>
+
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="blog-card bg-white p-6 rounded shadow-md">
+            <h3 class="text-xl font-bold mb-2">Blog Title 1</h3>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <a href="#blog1" class="text-indigo-600 hover:underline">Read more</a>
+            </div>
+            <div class="blog-card bg-white p-6 rounded shadow-md">
+            <h3 class="text-xl font-bold mb-2">Blog Title 2</h3>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <a href="#blog2" class="text-indigo-600 hover:underline">Read more</a>
+            </div>
+            <div class="blog-card bg-white p-6 rounded shadow-md">
+            <h3 class="text-xl font-bold mb-2">Blog Title 3</h3>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <a href="#blog3" class="text-indigo-600 hover:underline">Read more</a>
+            </div>
+        </div>
+        <div class="mt-6 text-center">
+            <a href="/blogs.html" class="bg-indigo-600 text-white p-2 rounded-md shadow-sm hover:bg-indigo-700">View All Blogs</a>
+        </div>
+    </section>
+
+    <section id="contact-me" class="p-20 bg-pink-500">
+        <div class="container mx-auto bg-white p-8 rounded shadow-md mr-auto ml-auto w-full max-w-1040px">
+            <h2 class="text-2xl font-bold mb-4">Let's connect!</h2>
+            <p class="mb-6">If you think we are a great fit send me an email. You have an idea? Want to Collaborate? Need help?</p>
+            <form action="#" method="POST" class="space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="col-span-1">
+                        <div class="mb-2">
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="6" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required></textarea>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Send</button>
+                </div>
+            </form>
+            </form>
+        </div>
+    </section>
+
+    <!----------------------------------------- Footer --------------------------------------------->
+    <footer class="p-10 bg-gray-300">
+        <div class="row flex justify-between items-center mr-auto ml-auto">
+            <div class="left">
+                <a href="">&copy; 2025 Renz Gomez</a>
+            </div>
+            <nav id="nav-footer" class="flex justify-center space-x-4">
+                <ul class="flex space-x-4">
+                    <li><u><a href="https://www.linkedin.com" target="_blank" class="hover:underline">LinkedIn</a></u></li>
+                    <li><u><a href="https://www.facebook.com" target="_blank" class="hover:underline">Facebook</a></u></li>
+                    <li><u><a href="https://www.twitter.com" target="_blank" class="hover:underline">Twitter</a></u></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="back-to-top text-center">
+            <a href="#top" class="top">Back to top</a>
+        </div>
+        
+    </footer>
+</body>
+</html>

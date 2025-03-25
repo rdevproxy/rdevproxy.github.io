@@ -27,7 +27,7 @@ export function Certifications() {
     ];
 
     return (
-        <section className="py-12 px-8 lg:py-24">
+        <section id="certifications" className="py-12 px-8 lg:py-24">
             <div className="container max-w-screen-lg mx-auto">
                 <div className="container mx-auto mb-20 text-center">
                     <Typography variant="h2" color="blue-gray" className="mb-4">

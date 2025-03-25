@@ -2,7 +2,7 @@ import { Typography, Button } from "@material-tailwind/react";
 
 const LINKS = [
   {
-    name: "LinkedIn",
+    name: "Let's Connect!",
     href: "https://www.linkedin.com/in/renz-daryl-gomez/",
   },
   // {
@@ -26,12 +26,12 @@ export function Footer() {
             <ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
               <li key={link.name}>
-              <Typography
+                <Typography
                 as="a"
                 href={link.href}
-                variant="small"
-                className="font-normal text-gray-700 hover:text-gray-900 transition-colors"
-              >
+                variant="medium"
+                className="font-bold text-gray-700 hover:text-green-500 transition-colors"
+                >
                 {link.name}
               </Typography>
               </li>

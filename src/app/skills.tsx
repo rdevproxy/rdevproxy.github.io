@@ -55,7 +55,7 @@ export function Skills() {
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
         <Typography variant="h1" color="blue-gray" className="mb-4">
-        &gt; How_I_Secure_The_Digital_World
+          Securing the Digital World
         </Typography>
         <Typography
           variant="lead"

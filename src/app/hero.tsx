@@ -19,7 +19,7 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I am Renz Gomez, a Penetration Tester, Ethical Hacker and Incident Responder based in the Philippines. Get a glimpse of my journey in cybersecurity where I uncover vulnerabilities, strengthen defenses, and ensure digital resilience for organization.
+            I am Renz Gomez, a Penetration Tester, Ethical Hacker and Incident Responder based in the Philippines. Get a glimpse of my journey in cybersecurity where I uncover vulnerabilities, strengthen security posture, and ensure digital resilience for organization.
           </Typography>
         
         </div>

@@ -2,51 +2,51 @@
 
 import { Typography } from "@material-tailwind/react";
 import {
-  RectangleGroupIcon,
-  FingerPrintIcon,
-  SwatchIcon,
-  HashtagIcon,
-  EyeIcon,
-  DocumentTextIcon,
+  GlobeAsiaAustraliaIcon,
+  DevicePhoneMobileIcon,
+  WifiIcon,
+  BellAlertIcon,
+  ShieldCheckIcon,
+  DocumentCheckIcon,
 } from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
 
 const SKILLS = [
   {
-    icon: RectangleGroupIcon,
-    title: "Frontend Web Development:",
+    icon: GlobeAsiaAustraliaIcon,
+    title: "Web Penetration Testing:",
     children:
-      "Creating beautiful and functional web experiences is my forte. Using the latest technologies and best practices, I design and build websites that captivate and engage users.",
+      "Performs in-depth security assessments on web applications, identifying OWASP Top 10 vulnerabilities and adhering to OWASP Web Security Testing Guide using tools such as Burp Suite, OWASP Zap, and open source tools.",
   },
   {
-    icon: FingerPrintIcon,
-    title: "Mobile App Development",
+    icon: DevicePhoneMobileIcon,
+    title: "Mobile Penetration Testing",
     children:
-      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
+      "Conducts static and dynamic analysis of Android and iOS applications, testing for insecure data storage, API vulnerabilities, and decompiling APK using tools such as like MobSF, Android Debug Bridge, and Burp Suite.",
   },
   {
-    icon: SwatchIcon,
-    title: "Technology Stack",
+    icon: WifiIcon,
+    title: "Network Penetration Testing",
     children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+      "Evaluates Active Directory security by testing for misconfiguration, overly-permissive domain users and domain admin service acccounts. Uses tools such as Mimikatz, Metaploit  and Impacket to assess vulnerbilities and recommend remediation strategies.",
   },
   {
-    icon: HashtagIcon,
-    title: " Web Optimization",
+    icon: BellAlertIcon,
+    title: "Incident Response",
     children:
-      "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
+      "Investigates and mitigates security incidents by analyzing events and endpoint activity to detect threats, contain breaches, and prevent escalation. Utilizes threat intelligence platforms to identify Indicators of Compromise (IoCs) and respond to malware infections, lateral movement, and privilege escalation attempts.",
   },
   {
-    icon: EyeIcon,
-    title: "User-Centric Design",
+    icon: ShieldCheckIcon,
+    title: "Security Awareness",
     children:
-      "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
+      "Provides security awareness training to employees through phishing simulations, educates them on best practices for preventing cyber threats, and ensures they understand company security policies and compliance requirements.",
   },
   {
-    icon: DocumentTextIcon,
-    title: "Testing and Quality Assurance",
+    icon: DocumentCheckIcon,
+    title: "Governance, Risk, and Compliance",
     children:
-      "I rigorously test and debug applications to guarantee a bug-free and secure environment for users. Your peace of mind is as important to me as the functionality of your project.",
+      "Creates, modifies, and updates security processes to safeguard systems, mitigate risks, and ensure regulatory compliance."
   },
 ];
 

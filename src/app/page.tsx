@@ -7,6 +7,7 @@ import Hero from "./hero";
 import Skills from "./skills";
 import Projects from "./projects";
 import Resume from "./resume";
+import Certifications from "./certification";
 import Testimonial from "./testimonial";
 import PopularClients from "./popular-clients";
 import ContactForm from "./contact-form";
@@ -18,8 +19,9 @@ export default function Portfolio() {
       <Hero />
       {/* <Clients /> */}
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       {/* <Resume /> */}
+      <Certifications />
       {/* <Testimonial /> */}
       {/* <PopularClients /> */}
       <ContactForm />

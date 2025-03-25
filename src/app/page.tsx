@@ -24,7 +24,7 @@ export default function Portfolio() {
       <Certifications />
       {/* <Testimonial /> */}
       {/* <PopularClients /> */}
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </>
   );

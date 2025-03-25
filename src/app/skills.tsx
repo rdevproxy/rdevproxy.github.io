@@ -22,25 +22,25 @@ const SKILLS = [
     icon: DevicePhoneMobileIcon,
     title: "Mobile Penetration Testing",
     children:
-      "Conducts static and dynamic analysis of Android and iOS applications, testing for insecure data storage, API vulnerabilities, and decompiling APK using tools such as like MobSF, Android Debug Bridge, and Burp Suite.",
+      "Conducts static and dynamic analysis of Android and iOS applications, testing for insecure data storage, API vulnerabilities, and decompiling APK using tools such as MobSF, Android Debug Bridge, and Burp Suite.",
   },
   {
     icon: WifiIcon,
     title: "Network Penetration Testing",
     children:
-      "Evaluates Active Directory security by testing for misconfiguration, overly-permissive domain users and domain admin service acccounts. Uses tools such as Mimikatz, Metaploit  and Impacket to assess vulnerbilities and recommend remediation strategies.",
+      "Evaluates Active Directory security by testing for misconfiguration, overly-permissive domain users, domain admin, and service acccounts. Leverages tools such as Mimikatz, Metaploit and Impacket to identify vulnerbilities and recommend remediation strategies.",
   },
   {
     icon: BellAlertIcon,
     title: "Incident Response",
     children:
-      "Investigates and mitigates security incidents by analyzing events and endpoint activity to detect threats, contain breaches, and prevent escalation. Utilizes threat intelligence platforms to identify Indicators of Compromise (IoCs) and respond to malware infections, lateral movement, and privilege escalation attempts.",
+      "Investigates and mitigates security incidents by analyzing events and endpoint activity to detect threats, contain breaches, and minimize dwell time. Utilizes threat intelligence platforms to identify Indicators of Compromise (IoCs) and respond to malware infections, lateral movement, and privilege escalation attempts.",
   },
   {
     icon: ShieldCheckIcon,
     title: "Security Awareness",
     children:
-      "Provides security awareness training to employees through phishing simulations, educates them on best practices for preventing cyber threats, and ensures they understand company security policies and compliance requirements.",
+      "Provides security awareness training to employees through phishing simulations, educates them on best practices for preventing cyber threats, and ensures they follow company policies.",
   },
   {
     icon: DocumentCheckIcon,

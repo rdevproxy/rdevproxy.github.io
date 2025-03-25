@@ -38,11 +38,11 @@ const NAV_MENU = [
   //   icon: PencilSquareIcon,
   //   href: "#blog",
   // },
-  {
-    name: "Let's Connect",
-    icon: EnvelopeIcon,
-    href: "#letsconnect",
-  },
+  // {
+  //   name: "Let's Connect",
+  //   icon: EnvelopeIcon,
+  //   href: "#letsconnect",
+  // },
 ];
 
 interface NavItemProps {

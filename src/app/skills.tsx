@@ -54,19 +54,14 @@ export function Skills() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
-          my skills
-        </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-4">
-          What I do
+        &gt; How_I_Secure_The_Digital_World
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full !text-gray-500 lg:w-10/12"
         >
-          I&apos;m not just a developer; I&apos;m a digital dreamweaver.
-          Crafting immersive online experiences is not just a job but my
-          calling. Discover below how I can help you.
+          I&apos;m not just a security professional; I'm a digital guardian. Identifying vulnerabilities, fortifying defenses, and staying ahead of cyber threats isn’t just a job it’s my mission. <br /> Explore below to see how I protect, defend, and secure the digital landscape.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">

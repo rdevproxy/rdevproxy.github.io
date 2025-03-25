@@ -8,6 +8,8 @@ import {
 } from "@material-tailwind/react";
 import {
   AcademicCapIcon,
+  CommandLineIcon,
+  RocketLaunchIcon,
   PencilSquareIcon,
   EnvelopeIcon,
   Squares2X2Icon,
@@ -17,13 +19,21 @@ import {
 
 const NAV_MENU = [
   {
-    name: "Certification",
+    name: "Whoami",
+    icon: CommandLineIcon,
+  },
+  {
+    name: "Skills",
     icon: AcademicCapIcon,
   },
   {
-    name: "Blog",
-    icon: PencilSquareIcon,
+    name: "Certifications",
+    icon: RocketLaunchIcon,
   },
+  // {
+  //   name: "Blog",
+  //   icon: PencilSquareIcon,
+  // },
   {
     name: "Let's Connect",
     icon: EnvelopeIcon,

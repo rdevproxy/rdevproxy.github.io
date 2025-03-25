@@ -7,9 +7,9 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import {
-  RectangleStackIcon,
-  UserCircleIcon,
-  CommandLineIcon,
+  AcademicCapIcon,
+  PencilSquareIcon,
+  EnvelopeIcon,
   Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
@@ -17,17 +17,16 @@ import {
 
 const NAV_MENU = [
   {
-    name: "Page",
-    icon: RectangleStackIcon,
+    name: "Certification",
+    icon: AcademicCapIcon,
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
+    name: "Blog",
+    icon: PencilSquareIcon,
   },
   {
-    name: "Docs",
-    icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    name: "Let's Connect",
+    icon: EnvelopeIcon,
   },
 ];
 
@@ -67,10 +66,7 @@ export function Navbar() {
 
   return (
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
-      <div className="container mx-auto flex items-center justify-between">
-        <Typography color="blue-gray" className="text-lg font-bold">
-          Material Tailwind
-        </Typography>
+      <div className="container mx-auto flex items-center justify-center">
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
             <NavItem key={name} href={href}>
@@ -79,12 +75,7 @@ export function Navbar() {
             </NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text">Sign In</Button>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color="gray">blocks</Button>
-          </a>
-        </div>
+      
         <IconButton
           variant="text"
           color="gray"
@@ -108,12 +99,6 @@ export function Navbar() {
               </NavItem>
             ))}
           </ul>
-          <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Sign In</Button>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray">blocks</Button>
-            </a>
-          </div>
         </div>
       </Collapse>
     </MTNavbar>
